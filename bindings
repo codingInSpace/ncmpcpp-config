@@ -154,14 +154,20 @@
 def_key "k"
   scroll_up
 
-def_key "shift-k"
-	page_up
+def_key "K"
+	scroll_up
+	scroll_up
+	scroll_up
+	scroll_up
 
 def_key "j"
   scroll_down
 
-def_key "shift-j"
-	page_down
+def_key "J"
+	scroll_down	
+	scroll_down
+	scroll_down
+	scroll_down
 
 def_key "up"
 	select_item
