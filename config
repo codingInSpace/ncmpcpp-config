@@ -204,7 +204,8 @@ mpd_music_dir = ~/Music
 song_list_format = "{$2%a$2} {$5%t$5} $R {$3%b$3}   $6({$6%l})"
 #
 #song_status_format = {{%a{ "%b"{ (%y)}} - }{%t}}|{%f}
-song_status_format  = "{$2%a$2} {$3%b$3} {$5%t$5}"
+#song_status_format  = "{$2%a$2} {$3%b$3} {$5%t$5}"
+song_status_format = " $6%a $4⟫$3⟫ $7%t $4⟫$3⟫ $5%b "
 #
 #song_library_format = {%n - }{%t}|{%f}
 #
@@ -214,10 +215,11 @@ song_status_format  = "{$2%a$2} {$3%b$3} {$5%t$5}"
 #alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
 #
 #now_playing_prefix = $b
-#
 #now_playing_suffix = $/b
+now_playing_prefix = "$b$2⟩$3⟩ "
+now_playing_suffix = "$8$/b"
 #
-#browser_playlist_prefix = "$2playlist$9 "
+browser_playlist_prefix = "$5playlist$9 "
 #
 #selected_item_prefix = $6
 #
@@ -278,7 +280,6 @@ song_status_format  = "{$2%a$2} {$3%b$3} {$5%t$5}"
 ##   not available.
 ##
 #
-#song_columns_list_format = (20)[]{a} (6f)[green]{NE} (50)[white]{t|f:Title} (20)[cyan]{b} (7f)[magenta]{l}
 song_columns_list_format  = "(32)[magenta]{a} (32)[cyan]{b} (32)[blue]{t} $R(4)[magenta]{l}"
 #
 ##### various settings #####
@@ -454,7 +455,7 @@ titles_visibility = no
 #
 #media_library_sort_by_mtime = no
 #
-#enable_window_title = yes
+enable_window_title = no
 #
 ##
 ## Note: You can choose default search mode for search
