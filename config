@@ -280,7 +280,7 @@ browser_playlist_prefix = "$5playlist$9 "
 ##   not available.
 ##
 #
-song_columns_list_format  = "(32)[magenta]{a} (32)[cyan]{b} (32)[blue]{t} $R(4)[magenta]{l}"
+song_columns_list_format  = "(32)[magenta]{a} (32)[cyan]{t} (32)[blue]{b} $R(4)[magenta]{l}"
 #
 ##### various settings #####
 #
