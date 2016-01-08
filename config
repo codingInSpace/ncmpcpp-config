@@ -517,7 +517,7 @@ color1 = white
 
 color2 = magenta
 
-progressbar_color = black
+progressbar_color = blue
 
 progressbar_elapsed_color = magenta
 
